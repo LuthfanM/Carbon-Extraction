@@ -33,33 +33,41 @@
     "modules": {
       "A1": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A2": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A3": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A1-A3": {
         "value": 105,
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "A4": {
@@ -67,6 +75,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "A5": {
@@ -74,69 +84,87 @@
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "B1": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B2": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B3": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B4": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B6": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B7": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
-        "source_page": 15,
-        "source_table": "Primary environmental indicators - GWP-Total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 9,
+        "source_pdf_page": 9,
+        "source_epd_page": 9,
+        "source_table": "Description of System Boundaries and Excluded Lifecycle Stages",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "C1": {
         "value": 0.532,
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "C2": {
@@ -144,6 +172,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "C3": {
@@ -151,6 +181,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "C4": {
@@ -158,6 +190,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       },
       "D": {
@@ -165,6 +199,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
         "source_page": 15,
+        "source_pdf_page": 15,
+        "source_epd_page": 15,
         "source_table": "Primary environmental indicators - GWP-Total"
       }
     },

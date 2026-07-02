@@ -33,33 +33,41 @@
     "modules": {
       "A1": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
-        "source_page": 21,
-        "source_table": "Core Environmental Impact Indicators / GWP-tot row",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A2": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
-        "source_page": 21,
-        "source_table": "Core Environmental Impact Indicators / GWP-tot row",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A3": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
-        "source_page": 21,
-        "source_table": "Core Environmental Impact Indicators / GWP-tot row",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A1-A3": {
         "value": 127,
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "A4": {
@@ -67,6 +75,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "A5": {
@@ -74,6 +84,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B1": {
@@ -81,6 +93,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B2": {
@@ -88,6 +102,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B3": {
@@ -95,6 +111,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B4": {
@@ -102,6 +120,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B5": {
@@ -109,6 +129,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B6": {
@@ -116,6 +138,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "B7": {
@@ -123,6 +147,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "C1": {
@@ -130,6 +156,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "C2": {
@@ -137,6 +165,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "C3": {
@@ -144,6 +174,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "C4": {
@@ -151,6 +183,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       },
       "D": {
@@ -158,6 +192,8 @@
         "status": "declared",
         "source_pdf": "EPD-IES-0014769_P252080.pdf",
         "source_page": 21,
+        "source_pdf_page": 21,
+        "source_epd_page": 21,
         "source_table": "Core Environmental Impact Indicators / GWP-tot row"
       }
     },

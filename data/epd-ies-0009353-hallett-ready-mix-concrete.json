@@ -42,6 +42,8 @@
         "status": "not_extracted",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
         "source_table": null,
         "note": "Module value was not captured during extraction and needs manual review."
       },
@@ -50,6 +52,8 @@
         "status": "not_extracted",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
         "source_table": null,
         "note": "Module value was not captured during extraction and needs manual review."
       },
@@ -58,6 +62,8 @@
         "status": "not_extracted",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
         "source_table": null,
         "note": "Module value was not captured during extraction and needs manual review."
       },
@@ -66,86 +72,108 @@
         "status": "not_extracted",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
         "source_table": null,
         "note": "Module value was not captured during extraction and needs manual review."
       },
       "A4": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "A5": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B1": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B2": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B3": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B4": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B5": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B6": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B7": {
         "value": null,
-        "status": "not_extracted",
+        "status": "not_declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
-        "source_page": null,
-        "source_table": null,
-        "note": "Module value was not captured during extraction and needs manual review."
+        "source_page": 6,
+        "source_pdf_page": 6,
+        "source_epd_page": 6,
+        "source_table": "Table 4: modules included in the scope of the EPD",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "C1": {
         "value": 14.8,
         "status": "declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": 68,
+        "source_pdf_page": 35,
+        "source_epd_page": 68,
         "source_table": "Representative modules C1-C4 and D GWPt row"
       },
       "C2": {
@@ -153,6 +181,8 @@
         "status": "declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": 68,
+        "source_pdf_page": 35,
+        "source_epd_page": 68,
         "source_table": "Representative modules C1-C4 and D GWPt row"
       },
       "C3": {
@@ -160,6 +190,8 @@
         "status": "declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": 68,
+        "source_pdf_page": 35,
+        "source_epd_page": 68,
         "source_table": "Representative modules C1-C4 and D GWPt row"
       },
       "C4": {
@@ -167,6 +199,8 @@
         "status": "declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": 68,
+        "source_pdf_page": 35,
+        "source_epd_page": 68,
         "source_table": "Representative modules C1-C4 and D GWPt row"
       },
       "D": {
@@ -174,6 +208,8 @@
         "status": "declared",
         "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
         "source_page": 68,
+        "source_pdf_page": 35,
+        "source_epd_page": 68,
         "source_table": "Representative modules C1-C4 and D GWPt row"
       }
     },

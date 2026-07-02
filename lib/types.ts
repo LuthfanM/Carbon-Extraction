@@ -32,6 +32,8 @@ export type CarbonModuleValue = {
   status: CarbonValueStatus;
   source_pdf: string;
   source_page: number | string | null;
+  source_pdf_page?: number | string | null;
+  source_epd_page?: number | string | null;
   source_table: string | null;
   note?: string;
 };

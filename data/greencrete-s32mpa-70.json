@@ -33,33 +33,41 @@
     "modules": {
       "A1": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
-        "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A2": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
-        "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A3": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
-        "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A1-A3": {
         "value": 134,
         "status": "declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
+        "source_pdf_page": 11,
+        "source_epd_page": 8,
         "source_table": "Environmental impacts - GWP-total"
       },
       "A4": {
@@ -67,78 +75,98 @@
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "A5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B1": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B2": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B3": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B4": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B6": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B7": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_pdf_page": 8,
+        "source_epd_page": 8,
+        "source_table": "System boundary / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "C1": {
         "value": 5.67,
         "status": "declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
+        "source_pdf_page": 11,
+        "source_epd_page": 8,
         "source_table": "Environmental impacts - GWP-total"
       },
       "C2": {
@@ -146,6 +174,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
+        "source_pdf_page": 11,
+        "source_epd_page": 8,
         "source_table": "Environmental impacts - GWP-total"
       },
       "C3": {
@@ -153,6 +183,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
+        "source_pdf_page": 11,
+        "source_epd_page": 8,
         "source_table": "Environmental impacts - GWP-total"
       },
       "C4": {
@@ -160,6 +192,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
+        "source_pdf_page": 11,
+        "source_epd_page": 8,
         "source_table": "Environmental impacts - GWP-total"
       },
       "D": {
@@ -167,6 +201,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
         "source_page": 8,
+        "source_pdf_page": 11,
+        "source_epd_page": 8,
         "source_table": "Environmental impacts - GWP-total"
       }
     },

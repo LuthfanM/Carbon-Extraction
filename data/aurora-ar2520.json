@@ -33,112 +33,140 @@
     "modules": {
       "A1": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A2": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A3": {
         "value": null,
-        "status": "not_declared",
+        "status": "not_extracted",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": null,
+        "source_pdf_page": null,
+        "source_epd_page": null,
+        "source_table": null,
+        "note": "Individual module value was not found during extraction; only an aggregate value may be declared."
       },
       "A1-A3": {
         "value": 140,
         "status": "declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
         "source_page": 18,
+        "source_pdf_page": 18,
+        "source_epd_page": 18,
         "source_table": "Table 10: Environmental indicators EN 15804+A2"
       },
       "A4": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "A5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B1": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B2": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B3": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B4": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B6": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B7": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
-        "source_page": 18,
-        "source_table": "Table 10: Environmental indicators EN 15804+A2",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 7,
+        "source_pdf_page": 7,
+        "source_epd_page": 7,
+        "source_table": "Modules Declared / ND = module is not declared",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "C1": {
         "value": 12,
         "status": "declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
         "source_page": 18,
+        "source_pdf_page": 18,
+        "source_epd_page": 18,
         "source_table": "Table 10: Environmental indicators EN 15804+A2"
       },
       "C2": {
@@ -146,6 +174,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
         "source_page": 18,
+        "source_pdf_page": 18,
+        "source_epd_page": 18,
         "source_table": "Table 10: Environmental indicators EN 15804+A2"
       },
       "C3": {
@@ -153,6 +183,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
         "source_page": 18,
+        "source_pdf_page": 18,
+        "source_epd_page": 18,
         "source_table": "Table 10: Environmental indicators EN 15804+A2"
       },
       "C4": {
@@ -160,6 +192,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
         "source_page": 18,
+        "source_pdf_page": 18,
+        "source_epd_page": 18,
         "source_table": "Table 10: Environmental indicators EN 15804+A2"
       },
       "D": {
@@ -167,6 +201,8 @@
         "status": "declared",
         "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
         "source_page": 18,
+        "source_pdf_page": 18,
+        "source_epd_page": 18,
         "source_table": "Table 10: Environmental indicators EN 15804+A2"
       }
     },

@@ -36,6 +36,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 13,
+        "source_pdf_page": 13,
+        "source_epd_page": 13,
         "source_table": "Environmental impacts - GWP-total"
       },
       "A2": {
@@ -43,6 +45,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 13,
+        "source_pdf_page": 13,
+        "source_epd_page": 13,
         "source_table": "Environmental impacts - GWP-total"
       },
       "A3": {
@@ -50,6 +54,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 13,
+        "source_pdf_page": 13,
+        "source_epd_page": 13,
         "source_table": "Environmental impacts - GWP-total"
       },
       "A1-A3": {
@@ -57,85 +63,107 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 13,
+        "source_pdf_page": 13,
+        "source_epd_page": 13,
         "source_table": "Environmental impacts - GWP-total"
       },
       "A4": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "A5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B1": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B2": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B3": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B4": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B5": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B6": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "B7": {
         "value": null,
         "status": "not_declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
-        "source_page": 13,
-        "source_table": "Environmental impacts - GWP-total",
-        "note": "Module was not reported for this product in the extracted source table."
+        "source_page": 5,
+        "source_pdf_page": 5,
+        "source_epd_page": 5,
+        "source_table": "System boundaries / Modules not declared = ND",
+        "note": "Module is explicitly marked ND/not declared in the source PDF."
       },
       "C1": {
         "value": 4.45,
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 14,
+        "source_pdf_page": 14,
+        "source_epd_page": 14,
         "source_table": "Environmental impacts - GWP-total"
       },
       "C2": {
@@ -143,6 +171,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 14,
+        "source_pdf_page": 14,
+        "source_epd_page": 14,
         "source_table": "Environmental impacts - GWP-total"
       },
       "C3": {
@@ -150,6 +180,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 14,
+        "source_pdf_page": 14,
+        "source_epd_page": 14,
         "source_table": "Environmental impacts - GWP-total"
       },
       "C4": {
@@ -157,6 +189,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 14,
+        "source_pdf_page": 14,
+        "source_epd_page": 14,
         "source_table": "Environmental impacts - GWP-total"
       },
       "D": {
@@ -164,6 +198,8 @@
         "status": "declared",
         "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
         "source_page": 14,
+        "source_pdf_page": 14,
+        "source_epd_page": 14,
         "source_table": "Environmental impacts - GWP-total"
       }
     },
