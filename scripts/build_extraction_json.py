@@ -10,6 +10,50 @@ TEXT_DIR = Path("tmp/extracted")
 MODULES = ["A1", "A2", "A3", "A1-A3", "A4", "A5", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "C1", "C2", "C3", "C4", "D"]
 SYSTEM_BOUNDARY = "As declared in the EPD GWP-total lifecycle module table"
 METHOD = "GWP-total as declared in the source EPD"
+B_STAGES = ["B1", "B2", "B3", "B4", "B5", "B6", "B7"]
+A4_A5_AND_B = ["A4", "A5", *B_STAGES]
+
+NOT_DECLARED_OVERRIDES = {
+    "epd-hub-5210": (A4_A5_AND_B, 5, "System boundaries / Modules not declared = ND"),
+    "epd-hub-5555": (A4_A5_AND_B, 5, "System boundaries / Modules not declared = ND"),
+    "epd-hub-5556": (A4_A5_AND_B, 5, "System boundaries / Modules not declared = ND"),
+    "epd-hub-5882": (A4_A5_AND_B, 5, "System boundaries / Modules not declared = ND"),
+    "adbri-sn252f100": (B_STAGES, 18, "Table 3: system boundary, modules marked MND"),
+    "aurora-ar2520": (A4_A5_AND_B, 7, "Modules Declared / ND = module is not declared"),
+    "greencrete-s32mpa-70": (A4_A5_AND_B, 8, "System boundary / Modules not declared = ND"),
+    "holcim-qx25mor": (B_STAGES, 9, "Description of System Boundaries and Excluded Lifecycle Stages"),
+    "holcim-qe252m100": (B_STAGES, 9, "Description of System Boundaries and Excluded Lifecycle Stages"),
+    "holcim-ve322eamf": (B_STAGES, 9, "Description of System Boundaries and Excluded Lifecycle Stages"),
+    "epd-ies-0009353-hallett-ready-mix-concrete": (A4_A5_AND_B, 6, "Table 4: modules included in the scope of the EPD"),
+}
+
+NOT_EXTRACTED_OVERRIDES = {
+    "hanson-p252080": ["A1", "A2", "A3"],
+    "heidelberg-ge322lpf2": ["A1", "A2", "A3"],
+    "aurora-ar2520": ["A1", "A2", "A3"],
+    "greencrete-s32mpa-70": ["A1", "A2", "A3"],
+    "holcim-qx25mor": ["A1", "A2", "A3"],
+    "holcim-qe252m100": ["A1", "A2", "A3"],
+    "holcim-ve322eamf": ["A1", "A2", "A3"],
+}
+
+PAGE_NUMBER_OVERRIDES = {
+    "greencrete-s32mpa-70": {
+        "A1-A3": {"source_epd_page": 8, "source_pdf_page": 11},
+        "C1": {"source_epd_page": 8, "source_pdf_page": 11},
+        "C2": {"source_epd_page": 8, "source_pdf_page": 11},
+        "C3": {"source_epd_page": 8, "source_pdf_page": 11},
+        "C4": {"source_epd_page": 8, "source_pdf_page": 11},
+        "D": {"source_epd_page": 8, "source_pdf_page": 11},
+    },
+    "epd-ies-0009353-hallett-ready-mix-concrete": {
+        "C1": {"source_epd_page": 68, "source_pdf_page": 35},
+        "C2": {"source_epd_page": 68, "source_pdf_page": 35},
+        "C3": {"source_epd_page": 68, "source_pdf_page": 35},
+        "C4": {"source_epd_page": 68, "source_pdf_page": 35},
+        "D": {"source_epd_page": 68, "source_pdf_page": 35},
+    },
+}
 
 
 def number(value: str) -> float | None:
@@ -73,6 +117,8 @@ def stage_map(
             "status": status,
             "source_pdf": Path(source_pdf).name,
             "source_page": stage_source_page if status != "not_extracted" else None,
+            "source_pdf_page": stage_source_page if status != "not_extracted" else None,
+            "source_epd_page": stage_source_page if status != "not_extracted" else None,
             "source_table": stage_source_table if status != "not_extracted" else None,
         }
         if note:
@@ -152,6 +198,44 @@ def entry(
         "provenance": provenance,
         "extraction_notes": notes,
     }
+
+
+def apply_second_checker_overrides(slug: str, data: dict[str, object]) -> dict[str, object]:
+    modules = data["carbon"]["modules"]
+    source_pdf = Path(data["source_pdf"]).name
+
+    if slug in NOT_DECLARED_OVERRIDES:
+        stages, page, table = NOT_DECLARED_OVERRIDES[slug]
+        for stage in stages:
+            modules[stage] = {
+                "value": None,
+                "status": "not_declared",
+                "source_pdf": source_pdf,
+                "source_page": page,
+                "source_pdf_page": page,
+                "source_epd_page": page,
+                "source_table": table,
+                "note": "Module is explicitly marked ND/not declared in the source PDF.",
+            }
+
+    for stage in NOT_EXTRACTED_OVERRIDES.get(slug, []):
+        modules[stage] = {
+            "value": None,
+            "status": "not_extracted",
+            "source_pdf": source_pdf,
+            "source_page": None,
+            "source_pdf_page": None,
+            "source_epd_page": None,
+            "source_table": None,
+            "note": "Individual module value was not found during extraction; only an aggregate value may be declared.",
+        }
+
+    for stage, page_data in PAGE_NUMBER_OVERRIDES.get(slug, {}).items():
+        if stage in modules and modules[stage]["status"] != "not_extracted":
+            modules[stage]["source_epd_page"] = page_data["source_epd_page"]
+            modules[stage]["source_pdf_page"] = page_data["source_pdf_page"]
+
+    return data
 
 
 def epd_hub_entries() -> list[tuple[str, dict[str, object]]]:
@@ -243,6 +327,7 @@ def main() -> None:
     DATA_DIR.mkdir(exist_ok=True)
     all_entries = epd_hub_entries() + MANUAL
     for slug, data in all_entries:
+        data = apply_second_checker_overrides(slug, data)
         (DATA_DIR / f"{slug}.json").write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {len(all_entries)} JSON files")
 

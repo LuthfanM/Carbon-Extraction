@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(90deg, rgb(33 37 30 / 0.035) 1px, transparent 1px),
+    linear-gradient(180deg, rgb(33 37 30 / 0.035) 1px, transparent 1px),
+    #eee9de;
+  background-size: 48px 48px;
+  color: #1f2933;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #263225;
+  color: #f6f3ec;
+}
