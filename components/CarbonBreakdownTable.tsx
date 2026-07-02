@@ -1,4 +1,4 @@
-import { SourceBadge } from "@/components/SourceBadge";
+import { SourceBadge, sourcePdfHref } from "@/components/SourceBadge";
 import { StatusBadge } from "@/components/StatusBadge";
 import { LIFE_CYCLE_MODULES, type LifeCycleModule, type ProductEpd } from "@/lib/types";
 
@@ -53,7 +53,18 @@ export function CarbonBreakdownTable({ product }: { product: ProductEpd }) {
                 </td>
                 <td className="max-w-sm px-4 py-3 align-top text-xs leading-5 text-[#5f6258]">
                   <SourceBadge module={module} />
-                  <div className="mt-1 font-mono">{module.source_pdf}</div>
+                  {sourcePdfHref(module) ? (
+                    <a
+                      href={sourcePdfHref(module) ?? undefined}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 block break-all font-mono text-[#526042] underline decoration-[#9aa784] underline-offset-2 hover:text-[#263225]"
+                    >
+                      {module.source_pdf}
+                    </a>
+                  ) : (
+                    <div className="mt-1 font-mono">{module.source_pdf ?? "No source PDF"}</div>
+                  )}
                   <div>{module.source_table ?? "No source table"}</div>
                   <div>{product.carbon.indicator} | {product.carbon.unit}</div>
                 </td>
