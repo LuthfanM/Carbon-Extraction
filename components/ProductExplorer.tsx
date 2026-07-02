@@ -57,7 +57,13 @@ export function ProductExplorer({ products }: { products: ProductRecord[] }) {
         onSortModeChange={setSortMode}
       />
       <ComparisonLimitations products={visibleProducts} />
-      <ProductTable products={visibleProducts} hasActiveFilters={hasActiveFilters} onClearFilters={clearFilters} />
+      <ProductTable
+        products={visibleProducts}
+        sortMode={sortMode}
+        hasActiveFilters={hasActiveFilters}
+        onClearFilters={clearFilters}
+        onSortModeChange={setSortMode}
+      />
     </section>
   );
 }
@@ -68,8 +74,12 @@ function unique<T>(values: T[]) {
 
 function compareProducts(sortMode: ProductSortMode) {
   return (a: ProductRecord, b: ProductRecord) => {
-    if (sortMode === "name") {
+    if (sortMode === "name_asc") {
       return a.product.name.localeCompare(b.product.name);
+    }
+
+    if (sortMode === "name_desc") {
+      return b.product.name.localeCompare(a.product.name);
     }
 
     if (sortMode === "strength") {

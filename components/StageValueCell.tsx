@@ -4,10 +4,12 @@ import type { DisplayStageValue } from "@/lib/compare";
 import { SourceBadge } from "@/components/SourceBadge";
 import { StatusBadge } from "@/components/StatusBadge";
 
-export function StageValueCell({ stage }: { stage: DisplayStageValue }) {
+export function StageValueCell({ stage, align = "start" }: { stage: DisplayStageValue; align?: "start" | "end" }) {
+  const alignment = align === "end" ? "items-end text-right" : "items-start text-left";
+
   if (stage.status !== "declared" && stage.status !== "partially_declared") {
     return (
-      <div className="flex min-w-32 flex-col gap-1">
+      <div className={`flex min-w-36 flex-col gap-1 ${alignment}`}>
         <StatusBadge status={stage.status} />
         <SourceBadge module={stage} />
       </div>
@@ -15,8 +17,8 @@ export function StageValueCell({ stage }: { stage: DisplayStageValue }) {
   }
 
   return (
-    <div className="flex min-w-32 flex-col gap-1">
-      <span className="whitespace-nowrap font-mono text-[13px] font-semibold text-[#172016]">
+    <div className={`flex min-w-36 flex-col gap-1 ${alignment}`}>
+      <span className="whitespace-nowrap font-mono text-[13px] font-semibold tabular-nums text-[#172016]">
         {formatCarbon(stage.value)}
       </span>
       {stage.status === "partially_declared" ? (

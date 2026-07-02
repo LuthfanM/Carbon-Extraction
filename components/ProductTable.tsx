@@ -2,15 +2,24 @@ import Link from "next/link";
 import { DISPLAY_STAGES, formatStrength, getDataQualitySummary, normalizeManufacturingLocation, stageValue } from "@/lib/compare";
 import type { ProductRecord } from "@/lib/types";
 import { DataQualityBadge } from "@/components/DataQualityBadge";
+import type { ProductSortMode } from "@/components/ProductFilters";
 import { StageValueCell } from "@/components/StageValueCell";
 
 type ProductTableProps = {
   products: ProductRecord[];
+  sortMode?: ProductSortMode;
   hasActiveFilters?: boolean;
   onClearFilters?: () => void;
+  onSortModeChange?: (value: ProductSortMode) => void;
 };
 
-export function ProductTable({ products, hasActiveFilters = false, onClearFilters }: ProductTableProps) {
+export function ProductTable({
+  products,
+  sortMode,
+  hasActiveFilters = false,
+  onClearFilters,
+  onSortModeChange,
+}: ProductTableProps) {
   if (products.length === 0) {
     return (
       <section className="border border-[#1f271d] bg-[#fffdf7] p-6 shadow-[8px_8px_0_#d8c9aa]">
@@ -38,43 +47,55 @@ export function ProductTable({ products, hasActiveFilters = false, onClearFilter
 
   return (
     <>
-      <div className="hidden overflow-x-auto border border-[#1f271d] bg-[#fffdf7] shadow-[10px_10px_0_#263225] lg:block">
-        <table className="w-full min-w-[1360px] border-collapse text-left text-sm">
-          <thead className="bg-[#182018] text-xs uppercase tracking-[0.12em] text-[#d8d1c1]">
+      <div className="hidden max-h-[72vh] overflow-auto border border-[#1f271d] bg-[#fffdf7] shadow-[10px_10px_0_#263225] lg:block">
+        <table className="w-full min-w-[1520px] border-separate border-spacing-0 text-left text-sm">
+          <thead className="sticky top-0 z-20 bg-[#182018] text-xs uppercase tracking-[0.12em] text-[#d8d1c1] shadow-[0_1px_0_#526042]">
             <tr>
-              <th className="w-72 border-b border-[#526042] px-4 py-4 font-semibold">Product</th>
-              <th className="border-b border-[#526042] px-4 py-4 font-semibold">Manufacturer</th>
-              <th className="border-b border-[#526042] px-4 py-4 font-semibold">Location</th>
-              <th className="border-b border-[#526042] px-4 py-4 font-semibold">Strength</th>
-              <th className="border-b border-[#526042] px-4 py-4 font-semibold">Unit</th>
+              <th className="sticky left-0 z-30 w-80 border-b border-r border-[#526042] bg-[#182018] px-4 py-4 font-semibold">
+                <button
+                  type="button"
+                  onClick={() => onSortModeChange?.(sortMode === "name_asc" ? "name_desc" : "name_asc")}
+                  className="inline-flex items-center gap-2 text-left uppercase tracking-[0.12em] text-[#d8d1c1] underline-offset-4 hover:underline"
+                  aria-label="Sort products by product name"
+                >
+                  Product
+                  <span className="font-mono text-[10px] text-[#b8c4a4]">
+                    {sortMode === "name_asc" ? "A-Z" : sortMode === "name_desc" ? "Z-A" : "SORT"}
+                  </span>
+                </button>
+              </th>
+              <th className="w-44 border-b border-[#526042] px-4 py-4 font-semibold">Manufacturer</th>
+              <th className="w-56 border-b border-[#526042] px-4 py-4 font-semibold">Location</th>
+              <th className="w-28 border-b border-[#526042] px-4 py-4 text-right font-semibold">Strength</th>
+              <th className="w-28 border-b border-[#526042] px-4 py-4 font-semibold">Unit</th>
               {DISPLAY_STAGES.map((stage) => (
-                <th key={stage} className="border-b border-[#526042] px-3 py-4 font-mono font-semibold text-[#b8c4a4]">
+                <th key={stage} className="w-40 border-b border-[#526042] px-3 py-4 text-right font-mono font-semibold text-[#b8c4a4]">
                   {stage}
                 </th>
               ))}
-              <th className="border-b border-[#526042] px-4 py-4 font-semibold">Data status</th>
+              <th className="w-44 border-b border-[#526042] px-4 py-4 font-semibold">Data status</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-[#d2c6b2] bg-[#fffdf7]">
+          <tbody className="bg-[#fffdf7]">
             {products.map((product) => (
-              <tr key={product.id} className="transition hover:bg-[#f2eadb]">
-                <td className="px-4 py-4 align-top">
+              <tr key={product.id} className="group transition hover:bg-[#f2eadb]">
+                <td className="sticky left-0 z-10 border-b border-r border-[#d2c6b2] bg-[#fffdf7] px-4 py-5 align-top transition group-hover:bg-[#f2eadb]">
                   <Link href={`/products/${product.id}`} className="text-base font-semibold leading-snug text-[#172016] underline-offset-4 hover:underline">
                     {product.product.name}
                   </Link>
                 </td>
-                <td className="px-4 py-4 align-top font-medium text-[#4c5147]">{product.product.manufacturer}</td>
-                <td className="max-w-56 px-4 py-4 align-top text-stone-700">
+                <td className="border-b border-[#d2c6b2] px-4 py-5 align-top font-medium text-[#4c5147]">{product.product.manufacturer}</td>
+                <td className="border-b border-[#d2c6b2] px-4 py-5 align-top text-stone-700">
                   {normalizeManufacturingLocation(product.product.manufacturing_location)}
                 </td>
-                <td className="px-4 py-4 align-top font-mono text-[#172016]">{formatStrength(product.product.compressive_strength_mpa)}</td>
-                <td className="px-4 py-4 align-top text-stone-700">{product.product.declared_unit}</td>
+                <td className="border-b border-[#d2c6b2] px-4 py-5 text-right align-top font-mono tabular-nums text-[#172016]">{formatStrength(product.product.compressive_strength_mpa)}</td>
+                <td className="border-b border-[#d2c6b2] px-4 py-5 align-top text-stone-700">{product.product.declared_unit}</td>
                 {DISPLAY_STAGES.map((stage) => (
-                  <td key={stage} className="px-3 py-4 align-top">
-                    <StageValueCell stage={stageValue(product, stage)} />
+                  <td key={stage} className="border-b border-[#d2c6b2] px-3 py-5 align-top">
+                    <StageValueCell stage={stageValue(product, stage)} align="end" />
                   </td>
                 ))}
-                <td className="px-4 py-4 align-top">
+                <td className="border-b border-[#d2c6b2] px-4 py-5 align-top">
                   <DataQualityBadge product={product} />
                 </td>
               </tr>

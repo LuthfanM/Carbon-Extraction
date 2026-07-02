@@ -15,7 +15,7 @@ export function SourceBadge({ module }: { module: SourceLike }) {
 
   return (
     <span
-      className="font-mono text-[11px] font-semibold text-[#526042]"
+      className="font-mono text-[11px] font-semibold tabular-nums text-[#526042]"
       title={`${module.source_pdf} | ${module.source_table ?? "No source table"}`}
     >
       {label}
