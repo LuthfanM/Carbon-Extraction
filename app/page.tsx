@@ -1,9 +1,11 @@
 import { ComparisonNote } from "@/components/ComparisonNote";
 import { ProductExplorer } from "@/components/ProductExplorer";
-import { getProducts } from "@/lib/data";
+import { fetchProductsFromBackend } from "@/lib/backend-api";
+
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const products = await getProducts();
+  const products = await fetchProductsFromBackend();
   const productsWithA1A3 = products.filter((product) => product.carbon.modules["A1-A3"].status === "declared").length;
   const sourcePdfCount = new Set(products.map((product) => product.source_pdf)).size;
 

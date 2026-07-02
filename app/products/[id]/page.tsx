@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CarbonBreakdownTable } from "@/components/CarbonBreakdownTable";
+import { fetchProductFromBackend } from "@/lib/backend-api";
 import { normalizeManufacturingLocation } from "@/lib/compare";
-import { getProduct } from "@/lib/data";
+
+export const dynamic = "force-dynamic";
 
 export default async function ProductDetailPage({
   params,
@@ -10,7 +12,7 @@ export default async function ProductDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const product = await getProduct(id);
+  const product = await fetchProductFromBackend(id);
 
   if (!product) {
     notFound();

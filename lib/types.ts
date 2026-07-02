@@ -80,3 +80,7 @@ export type ProductEpd = {
   }>;
   extraction_notes: string;
 };
+
+export type ProductRecord = ProductEpd & {
+  id: string;
+};

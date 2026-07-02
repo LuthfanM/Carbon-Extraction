@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { DISPLAY_STAGES, missingStageCount, normalizeManufacturingLocation, stageValue } from "@/lib/compare";
-import type { ProductRecord } from "@/lib/data";
+import type { ProductRecord } from "@/lib/types";
 import { StageValueCell } from "@/components/StageValueCell";
 import { StatusBadge } from "@/components/StatusBadge";
 

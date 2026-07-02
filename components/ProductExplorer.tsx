@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { getA1A3Value, normalizeManufacturingLocation } from "@/lib/compare";
-import type { ProductRecord } from "@/lib/data";
+import type { ProductRecord } from "@/lib/types";
 import { ProductFilters, type ProductSortMode } from "@/components/ProductFilters";
 import { ProductTable } from "@/components/ProductTable";
 
