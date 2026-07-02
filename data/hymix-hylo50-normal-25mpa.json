@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+  "epd": {
+    "registration_number": "EPD-IES-0014958:001",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "HyLo-50 Normal-Class 25 MPa",
+    "manufacturer": "Hymix",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": "Queensland - Gold Coast",
+    "compressive_strength_mpa": 25,
+    "compressive_strength": {
+      "value": 25,
+      "unit": "MPa",
+      "source_page": 22
+    },
+    "declared_unit": "1 m3",
+    "mass_kg_per_declared_unit": null,
+    "declared_unit_details": {
+      "value": "1 m3",
+      "mass_kg": null,
+      "source_page": 6
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A1-A3": {
+        "value": 141,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": 22,
+        "source_table": "Product Environmental Performance summary table"
+      },
+      "A4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A5": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B5": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B6": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B7": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "D": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      }
+    },
+    "lifecycle_total_declared": 167
+  },
+  "provenance": [
+    {
+      "page": 22,
+      "indicator": "GWP-total",
+      "source_text": "HyLo-50 Normal-Class 25 MPa row: A1-A3 141, Full Lifecycle 167"
+    },
+    {
+      "page": 26,
+      "indicator": "geography",
+      "source_text": "GEOGRAPHICAL SCOPE QUEENSLAND - GOLD COAST"
+    }
+  ],
+  "extraction_notes": "Only the summary A1-A3 and full lifecycle values were extracted; the module split was not legible in the text layer."
+}

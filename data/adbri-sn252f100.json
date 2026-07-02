@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/epd-ies-0021165-sn252f100.pdf",
+  "epd": {
+    "registration_number": "EPD-IES-0021165",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "SN252F100 Futurecrete Normal Class GL-Slag 25 MPa",
+    "manufacturer": "Adbri Concrete",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": "South Australia",
+    "compressive_strength_mpa": 25,
+    "compressive_strength": {
+      "value": 25,
+      "unit": "MPa",
+      "source_page": 32
+    },
+    "declared_unit": "1 m3",
+    "mass_kg_per_declared_unit": null,
+    "declared_unit_details": {
+      "value": "1 m3",
+      "mass_kg": null,
+      "source_page": 18
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A1-A3": {
+        "value": 143.83,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": 32,
+        "source_table": "Table 8: Product stage GWPt row"
+      },
+      "A4": {
+        "value": 9.64,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": 34,
+        "source_table": "Table 13: Distribution stage GWP-total row"
+      },
+      "A5": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B5": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B6": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B7": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "D": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-ies-0021165-sn252f100.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      }
+    },
+    "lifecycle_total_declared": null
+  },
+  "provenance": [
+    {
+      "page": 32,
+      "indicator": "GWP-total",
+      "source_text": "Table 8: SN252F100 GWPt 143.83"
+    },
+    {
+      "page": 34,
+      "indicator": "A4 GWP-total",
+      "source_text": "Table 13: Concrete produced at South Australia GWP-total 9.64"
+    }
+  ],
+  "extraction_notes": "Adbri declares A1-A3 for the mix and A4 as an average South Australia distribution scenario; other modules were not extracted as product-specific values."
+}
