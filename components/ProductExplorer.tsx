@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { getA1A3Value, normalizeManufacturingLocation } from "@/lib/compare";
 import type { ProductRecord } from "@/lib/types";
+import { ComparisonLimitations } from "@/components/ComparisonLimitations";
 import { ProductFilters, type ProductSortMode } from "@/components/ProductFilters";
 import { ProductTable } from "@/components/ProductTable";
 
@@ -33,6 +34,14 @@ export function ProductExplorer({ products }: { products: ProductRecord[] }) {
       .sort(compareProducts(sortMode));
   }, [location, products, query, sortMode, strength]);
 
+  const hasActiveFilters = strength !== "all" || location !== "all" || query.trim().length > 0;
+
+  function clearFilters() {
+    setStrength("all");
+    setLocation("all");
+    setQuery("");
+  }
+
   return (
     <section className="mx-auto flex w-full max-w-[1500px] flex-col gap-7 px-4 py-8 md:px-6 md:py-10">
       <ProductFilters
@@ -47,7 +56,8 @@ export function ProductExplorer({ products }: { products: ProductRecord[] }) {
         onLocationChange={setLocation}
         onSortModeChange={setSortMode}
       />
-      <ProductTable products={visibleProducts} />
+      <ComparisonLimitations products={visibleProducts} />
+      <ProductTable products={visibleProducts} hasActiveFilters={hasActiveFilters} onClearFilters={clearFilters} />
     </section>
   );
 }

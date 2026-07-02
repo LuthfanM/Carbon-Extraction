@@ -1,15 +1,38 @@
 import Link from "next/link";
-import { DISPLAY_STAGES, missingStageCount, normalizeManufacturingLocation, stageValue } from "@/lib/compare";
+import { DISPLAY_STAGES, formatStrength, getDataQualitySummary, normalizeManufacturingLocation, stageValue } from "@/lib/compare";
 import type { ProductRecord } from "@/lib/types";
+import { DataQualityBadge } from "@/components/DataQualityBadge";
 import { StageValueCell } from "@/components/StageValueCell";
-import { StatusBadge } from "@/components/StatusBadge";
 
-export function ProductTable({ products }: { products: ProductRecord[] }) {
+type ProductTableProps = {
+  products: ProductRecord[];
+  hasActiveFilters?: boolean;
+  onClearFilters?: () => void;
+};
+
+export function ProductTable({ products, hasActiveFilters = false, onClearFilters }: ProductTableProps) {
   if (products.length === 0) {
     return (
-      <div className="border border-stone-300 bg-white p-5 text-sm text-stone-700">
-        No products match the current filters. Clear the filters to compare all EPD records.
-      </div>
+      <section className="border border-[#1f271d] bg-[#fffdf7] p-6 shadow-[8px_8px_0_#d8c9aa]">
+        <div className="max-w-2xl">
+          <p className="font-mono text-xs uppercase tracking-[0.16em] text-[#526042]">No matching products</p>
+          <h2 className="mt-3 text-2xl font-semibold tracking-[-0.01em] text-[#172016]">
+            No EPD records match the current view.
+          </h2>
+          <p className="mt-3 text-sm leading-6 text-[#5f6258]">
+            Broaden the filters to compare all extracted records. Missing product metadata is shown as Unknown when the source data does not declare it.
+          </p>
+          {hasActiveFilters && onClearFilters ? (
+            <button
+              type="button"
+              onClick={onClearFilters}
+              className="mt-5 border border-[#263225] bg-[#263225] px-4 py-2 text-sm font-semibold text-[#f4f0e7] transition hover:bg-[#172016]"
+            >
+              Clear filters
+            </button>
+          ) : null}
+        </div>
+      </section>
     );
   }
 
@@ -44,7 +67,7 @@ export function ProductTable({ products }: { products: ProductRecord[] }) {
                 <td className="max-w-56 px-4 py-4 align-top text-stone-700">
                   {normalizeManufacturingLocation(product.product.manufacturing_location)}
                 </td>
-                <td className="px-4 py-4 align-top font-mono text-[#172016]">{product.product.compressive_strength_mpa ?? "Unknown"} MPa</td>
+                <td className="px-4 py-4 align-top font-mono text-[#172016]">{formatStrength(product.product.compressive_strength_mpa)}</td>
                 <td className="px-4 py-4 align-top text-stone-700">{product.product.declared_unit}</td>
                 {DISPLAY_STAGES.map((stage) => (
                   <td key={stage} className="px-3 py-4 align-top">
@@ -52,11 +75,7 @@ export function ProductTable({ products }: { products: ProductRecord[] }) {
                   </td>
                 ))}
                 <td className="px-4 py-4 align-top">
-                  {missingStageCount(product) === 0 ? (
-                    <StatusBadge status="declared" />
-                  ) : (
-                    <span className="border border-[#a79c86] bg-[#f2eadb] px-2 py-1 text-xs font-semibold text-[#665d4d]">{missingStageCount(product)} stages missing/review</span>
-                  )}
+                  <DataQualityBadge product={product} />
                 </td>
               </tr>
             ))}
@@ -67,6 +86,7 @@ export function ProductTable({ products }: { products: ProductRecord[] }) {
       <div className="grid gap-3 lg:hidden">
         {products.map((product) => {
           const a1a3 = stageValue(product, "A1-A3");
+          const quality = getDataQualitySummary(product);
           return (
             <article key={product.id} className="border border-[#1f271d] bg-[#fffdf7] p-4 shadow-[5px_5px_0_#263225]">
               <div className="flex items-start justify-between gap-4">
@@ -85,7 +105,7 @@ export function ProductTable({ products }: { products: ProductRecord[] }) {
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wide text-stone-500">Strength</dt>
-                  <dd className="mt-1 text-stone-800">{product.product.compressive_strength_mpa ?? "Unknown"} MPa</dd>
+                  <dd className="mt-1 text-stone-800">{formatStrength(product.product.compressive_strength_mpa)}</dd>
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wide text-stone-500">A1-A3</dt>
@@ -94,8 +114,11 @@ export function ProductTable({ products }: { products: ProductRecord[] }) {
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-xs uppercase tracking-wide text-stone-500">Missing data</dt>
-                  <dd className="mt-1 text-stone-800">{missingStageCount(product)} stages</dd>
+                  <dt className="text-xs uppercase tracking-wide text-stone-500">Data quality</dt>
+                  <dd className="mt-1">
+                    <DataQualityBadge product={product} compact />
+                    <span className="mt-1 block text-xs text-[#5f6258]">{quality.description}</span>
+                  </dd>
                 </div>
               </dl>
             </article>

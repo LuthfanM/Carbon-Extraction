@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CarbonBreakdownTable } from "@/components/CarbonBreakdownTable";
+import { DataQualityBadge } from "@/components/DataQualityBadge";
 import { fetchProductFromBackend } from "@/lib/backend-api";
-import { normalizeManufacturingLocation } from "@/lib/compare";
+import { formatStrength, getDataQualitySummary, normalizeManufacturingLocation } from "@/lib/compare";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +18,8 @@ export default async function ProductDetailPage({
   if (!product) {
     notFound();
   }
+
+  const quality = getDataQualitySummary(product);
 
   return (
     <main className="min-h-[100dvh] text-stone-900">
@@ -49,14 +52,25 @@ export default async function ProductDetailPage({
             </div>
             <div className="grid grid-cols-2 gap-1 border-b border-[#6f7a5f] py-2">
               <dt className="text-[#b8c4a4]">Strength</dt>
-              <dd className="font-mono text-[#f4f0e7]">{product.product.compressive_strength_mpa ?? "Unknown"} MPa</dd>
+              <dd className="font-mono text-[#f4f0e7]">{formatStrength(product.product.compressive_strength_mpa)}</dd>
             </div>
             <div className="grid grid-cols-2 gap-1 py-2">
               <dt className="text-[#b8c4a4]">Declared unit</dt>
               <dd className="text-[#f4f0e7]">{product.product.declared_unit}</dd>
             </div>
+            <div className="grid grid-cols-2 gap-1 border-t border-[#6f7a5f] py-2">
+              <dt className="text-[#b8c4a4]">Data quality</dt>
+              <dd>
+                <DataQualityBadge product={product} compact />
+              </dd>
+            </div>
           </dl>
         </header>
+
+        <section className="border border-[#a79c86] bg-[#fff8e8] p-4 text-sm leading-6 text-[#31382e]">
+          <h2 className="font-semibold text-[#172016]">Data quality indicator</h2>
+          <p className="mt-1">{quality.description}</p>
+        </section>
 
         <CarbonBreakdownTable product={product} />
 
