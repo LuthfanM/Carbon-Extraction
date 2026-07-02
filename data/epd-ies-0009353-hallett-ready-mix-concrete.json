@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+  "epd": {
+    "registration_number": "EPD-IES-0009353:003",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "Hallett Ready Mix concrete",
+    "manufacturer": "Hallett Group",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": [
+      "Dry Creek",
+      "Elizabeth",
+      "Mile End",
+      "McLaren Vale",
+      "Osborne"
+    ],
+    "compressive_strength_mpa": 32,
+    "compressive_strength": {
+      "value": 32,
+      "unit": "MPa",
+      "source_page": 5
+    },
+    "declared_unit": "1 m3",
+    "mass_kg_per_declared_unit": 2332,
+    "declared_unit_details": {
+      "value": "1 m3",
+      "mass_kg": 2332,
+      "source_page": 11
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A1-A3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "A5": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B1": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B2": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B3": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B4": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B5": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B6": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "B7": {
+        "value": null,
+        "status": "not_extracted",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": null,
+        "source_table": null,
+        "note": "Module value was not captured during extraction and needs manual review."
+      },
+      "C1": {
+        "value": 14.8,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": 68,
+        "source_table": "Representative modules C1-C4 and D GWPt row"
+      },
+      "C2": {
+        "value": 5.96,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": 68,
+        "source_table": "Representative modules C1-C4 and D GWPt row"
+      },
+      "C3": {
+        "value": 5.02,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": 68,
+        "source_table": "Representative modules C1-C4 and D GWPt row"
+      },
+      "C4": {
+        "value": 8.45,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": 68,
+        "source_table": "Representative modules C1-C4 and D GWPt row"
+      },
+      "D": {
+        "value": -11.6,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+        "source_page": 68,
+        "source_table": "Representative modules C1-C4 and D GWPt row"
+      }
+    },
+    "lifecycle_total_declared": null
+  },
+  "provenance": [
+    {
+      "page": 5,
+      "indicator": "product scope",
+      "source_text": "This EPD covers our Ready Mix concrete products"
+    },
+    {
+      "page": 68,
+      "indicator": "GWP-total",
+      "source_text": "MIX NAME N3220P S50 - representative for average density; GWPt kg CO-eq 14.8 5.96 5.02 8.45 -11.6"
+    }
+  ],
+  "extraction_notes": "This EPD covers many mixes and plants. The extracted C1-C4 and D values come from the EPD row labelled N3220P S50 - representative for average density. A1-A3 varies by plant and mix and was not reduced to a single product value."
+}

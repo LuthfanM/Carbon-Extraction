@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/EPD_HUB-5882_2026-06-27_en.pdf",
+  "epd": {
+    "registration_number": "EPD_HUB-5882",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "40 MPa High Performance Concrete",
+    "manufacturer": "Boral",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": "Australia",
+    "compressive_strength_mpa": 40,
+    "compressive_strength": {
+      "value": 40,
+      "unit": "MPa",
+      "source_page": 4
+    },
+    "declared_unit": "1 cubic metre",
+    "mass_kg_per_declared_unit": 2338.0,
+    "declared_unit_details": {
+      "value": "1 cubic metre",
+      "mass_kg": 2338.0,
+      "source_page": 4
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": 276.0,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "A2": {
+        "value": 15.0,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "A3": {
+        "value": 5.6,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "A1-A3": {
+        "value": 297.0,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "A4": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A5": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B1": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B2": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B3": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B4": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B5": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B6": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B7": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 13,
+        "source_table": "Environmental impacts - GWP-total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "C1": {
+        "value": 4.45,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 14,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "C2": {
+        "value": 12.6,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 14,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "C3": {
+        "value": 7.16,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 14,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "C4": {
+        "value": 4.38,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 14,
+        "source_table": "Environmental impacts - GWP-total"
+      },
+      "D": {
+        "value": -12.8,
+        "status": "declared",
+        "source_pdf": "EPD_HUB-5882_2026-06-27_en.pdf",
+        "source_page": 14,
+        "source_table": "Environmental impacts - GWP-total"
+      }
+    },
+    "lifecycle_total_declared": 297.0
+  },
+  "provenance": [
+    {
+      "page": "summary and environmental impacts table",
+      "indicator": "GWP-total",
+      "source_text": "GWP-total / GWP - total rows"
+    }
+  ],
+  "extraction_notes": "Parsed from EPD Hub summary and GWP-total environmental impact rows."
+}

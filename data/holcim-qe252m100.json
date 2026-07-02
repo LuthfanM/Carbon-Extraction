@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+  "epd": {
+    "registration_number": "EPD-IES-0029695:001",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "QE252M100 - S25/20/100 ECOPact Concrete",
+    "manufacturer": "Holcim",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": "Queensland - Brisbane",
+    "compressive_strength_mpa": 25,
+    "compressive_strength": {
+      "value": 25,
+      "unit": "MPa",
+      "source_page": 10
+    },
+    "declared_unit": "1 m3",
+    "mass_kg_per_declared_unit": 2319,
+    "declared_unit_details": {
+      "value": "1 m3",
+      "mass_kg": 2319,
+      "source_page": 16
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A2": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A3": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A1-A3": {
+        "value": 146,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "A4": {
+        "value": 2.58,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "A5": {
+        "value": 12.9,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "B1": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B2": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B3": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B4": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B5": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B6": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B7": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "C1": {
+        "value": 0.522,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "C2": {
+        "value": 4.31,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "C3": {
+        "value": 10.4,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "C4": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      },
+      "D": {
+        "value": -18.5,
+        "status": "declared",
+        "source_pdf": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+        "source_page": 16,
+        "source_table": "Primary environmental indicators - GWP-Total"
+      }
+    },
+    "lifecycle_total_declared": null
+  },
+  "provenance": [
+    {
+      "page": 10,
+      "indicator": "metadata",
+      "source_text": "25 QE252M100 2319 General use"
+    },
+    {
+      "page": 16,
+      "indicator": "GWP-total",
+      "source_text": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5"
+    }
+  ],
+  "extraction_notes": ""
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+  "epd": {
+    "registration_number": "EPD-IES-0014785:001",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "GE322LPF2",
+    "manufacturer": "Heidelberg Materials",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": "Brisbane, Queensland",
+    "compressive_strength_mpa": 32,
+    "compressive_strength": {
+      "value": 32,
+      "unit": "MPa",
+      "source_page": 17
+    },
+    "declared_unit": "1 m3",
+    "mass_kg_per_declared_unit": 2355.5,
+    "declared_unit_details": {
+      "value": "1 m3",
+      "mass_kg": 2355.5,
+      "source_page": 17
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A2": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A3": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A1-A3": {
+        "value": 145,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "A4": {
+        "value": 3.41,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "A5": {
+        "value": 10.1,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B1": {
+        "value": -3.17,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B2": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B3": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B4": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B5": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B6": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "B7": {
+        "value": 0,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "C1": {
+        "value": 8.99,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "C2": {
+        "value": 9.03,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "C3": {
+        "value": 5.19,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "C4": {
+        "value": 2.85,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      },
+      "D": {
+        "value": -14.1,
+        "status": "declared",
+        "source_pdf": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "source_page": 18,
+        "source_table": "Core environmental impact indicators / GWP-tot row"
+      }
+    },
+    "lifecycle_total_declared": 167
+  },
+  "provenance": [
+    {
+      "page": 17,
+      "indicator": "metadata",
+      "source_text": "Product identification GE322LPF2"
+    },
+    {
+      "page": 18,
+      "indicator": "GWP-total",
+      "source_text": "Core environmental impact indicators / GWP-tot row"
+    }
+  ],
+  "extraction_notes": "Stage values verified from rendered page because text extraction split the table into fragments."
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "source_pdf": "public/epd/epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+  "epd": {
+    "registration_number": "EPD-IES-0021754:001",
+    "published_date": null,
+    "valid_until": null
+  },
+  "product": {
+    "name": "AR2520 pre-mixed concrete",
+    "manufacturer": "Aurora Construction Materials",
+    "concrete_type": "Ready-mix concrete",
+    "manufacturing_location": "Rockbank, Melbourne, Victoria",
+    "compressive_strength_mpa": 25,
+    "compressive_strength": {
+      "value": 25,
+      "unit": "MPa",
+      "source_page": 5
+    },
+    "declared_unit": "1 m3",
+    "mass_kg_per_declared_unit": 2270,
+    "declared_unit_details": {
+      "value": "1 m3",
+      "mass_kg": 2270,
+      "source_page": 5
+    }
+  },
+  "carbon": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per declared unit",
+    "method": "GWP-total as declared in the source EPD",
+    "system_boundary": "As declared in the EPD GWP-total lifecycle module table",
+    "modules": {
+      "A1": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A2": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A3": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A1-A3": {
+        "value": 140,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2"
+      },
+      "A4": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "A5": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B1": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B2": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B3": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B4": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B5": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B6": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "B7": {
+        "value": null,
+        "status": "not_declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2",
+        "note": "Module was not reported for this product in the extracted source table."
+      },
+      "C1": {
+        "value": 12,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2"
+      },
+      "C2": {
+        "value": 14.5,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2"
+      },
+      "C3": {
+        "value": 8.03,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2"
+      },
+      "C4": {
+        "value": 0.861,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2"
+      },
+      "D": {
+        "value": -9.79,
+        "status": "declared",
+        "source_pdf": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+        "source_page": 18,
+        "source_table": "Table 10: Environmental indicators EN 15804+A2"
+      }
+    },
+    "lifecycle_total_declared": null
+  },
+  "provenance": [
+    {
+      "page": 5,
+      "indicator": "metadata",
+      "source_text": "AR2520 25MPa 2 270 kg/m3"
+    },
+    {
+      "page": 18,
+      "indicator": "GWP-total",
+      "source_text": "Table 10: GWP-total 1.40E+02 1.20E+01 1.45E+01 8.03E+00 8.61E-01 -9.79E+00"
+    }
+  ],
+  "extraction_notes": ""
+}
